@@ -1,0 +1,27 @@
+# Set Dart as the main language for linguist
+*.dart linguist-language=Dart
+
+# Normalize line endings to LF for Dart files
+*.dart text eol=lf
+
+# Text files (to avoid CRLF/LF issues on different OS)
+*.yaml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# Dart package files
+pubspec.yaml text eol=lf
+pubspec.lock text eol=lf
+
+# Generated files (can be treated as binary to avoid merge conflicts)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+
+# Flutter build
