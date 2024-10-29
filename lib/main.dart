@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/core/configs/themes/app_theme.dart';
+import 'package:spotify_clone/presentation/pages/splash/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo', theme: AppTheme.lightTheme, 
-        home: Container());
+        title: 'Flutter Demo',
+        theme: AppTheme.lightTheme,
+        home: SplashScreen());
   }
 }
