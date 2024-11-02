@@ -27,8 +27,8 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   Future<void> redirect() async {
-    await Future.delayed(const Duration(seconds: 5));
+    await Future.delayed(const Duration(seconds: 3));
     Navigator.pushReplacement(context,
-        MaterialPageRoute(builder: (BuildContext context) => GetStartedPage()));
+        MaterialPageRoute(builder: (BuildContext context) => const GetStartedPage()));
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/core/configs/themes/app_theme.dart';
+import 'package:spotify_clone/presentation/intro/pages/choose_mode.dart';
 import 'package:spotify_clone/presentation/pages/splash/splash.dart';
 
 void main() {
